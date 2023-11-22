@@ -33,7 +33,7 @@ struct RecipesView: View {
             
         } //VStack line 11.
         .frame(width: 393, height: 852)
-        .background(.white)
+        .background(Color(red: 1, green: 0.96, blue: 0.89))
         //Change this to correct background color.
     }
 }
