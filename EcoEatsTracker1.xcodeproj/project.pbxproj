@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		867F6F2B2B0E46E400AF510C /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F2A2B0E46E400AF510C /* DonateView.swift */; };
+		867F6F2D2B0E471B00AF510C /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F2C2B0E471B00AF510C /* RecipesView.swift */; };
+		867F6F2F2B0E472E00AF510C /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F2E2B0E472E00AF510C /* TrackerView.swift */; };
 		D22A0E592B080707008EA0E7 /* EcoEatsTracker1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */; };
 		D22A0E5B2B080707008EA0E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E5A2B080707008EA0E7 /* ContentView.swift */; };
 		D22A0E5D2B080709008EA0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22A0E5C2B080709008EA0E7 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		867F6F2A2B0E46E400AF510C /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DonateView.swift; path = ../DonateView.swift; sourceTree = "<group>"; };
+		867F6F2C2B0E471B00AF510C /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecipesView.swift; path = ../RecipesView.swift; sourceTree = "<group>"; };
+		867F6F2E2B0E472E00AF510C /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackerView.swift; path = ../TrackerView.swift; sourceTree = "<group>"; };
 		D22A0E552B080707008EA0E7 /* EcoEatsTracker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoEatsTracker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoEatsTracker1App.swift; sourceTree = "<group>"; };
 		D22A0E5A2B080707008EA0E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 		D22A0E572B080707008EA0E7 /* EcoEatsTracker1 */ = {
 			isa = PBXGroup;
 			children = (
+				867F6F2E2B0E472E00AF510C /* TrackerView.swift */,
+				867F6F2C2B0E471B00AF510C /* RecipesView.swift */,
+				867F6F2A2B0E46E400AF510C /* DonateView.swift */,
 				D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */,
 				D22A0E5A2B080707008EA0E7 /* ContentView.swift */,
 				D22A0E682B080DC8008EA0E7 /* LogInView.swift */,
@@ -149,8 +158,11 @@
 				D22A0E5B2B080707008EA0E7 /* ContentView.swift in Sources */,
 				D22A0E692B080DC8008EA0E7 /* LogInView.swift in Sources */,
 				D22A0E6B2B080E0D008EA0E7 /* HomeView.swift in Sources */,
+				867F6F2F2B0E472E00AF510C /* TrackerView.swift in Sources */,
 				D22A0E592B080707008EA0E7 /* EcoEatsTracker1App.swift in Sources */,
 				D22A0E6D2B08123F008EA0E7 /* ProgressView.swift in Sources */,
+				867F6F2B2B0E46E400AF510C /* DonateView.swift in Sources */,
+				867F6F2D2B0E471B00AF510C /* RecipesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
