@@ -63,7 +63,7 @@ struct MapView: View {
             
         } //VStack line 12.
         .frame(width: 393, height: 852)
-        .background(Color(red: 0.99, green: 0.98, blue: 0.95))
+        .background(Color(red: 1, green: 0.96, blue: 0.89))
     }
 }
 

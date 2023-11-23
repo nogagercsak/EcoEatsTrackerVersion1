@@ -35,7 +35,9 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
                         .frame(width: 146, height: 34, alignment: .top)
-        }
+        } //VStack line 12.
+        .frame(width: 393, height: 852)
+        .background(Color(red: 1, green: 0.96, blue: 0.89))
     }
 }
 
