@@ -15,6 +15,7 @@
 		867F6F352B0FA16700AF510C /* FoodTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F342B0FA16700AF510C /* FoodTrackerView.swift */; };
 		867F6F372B0FB26B00AF510C /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F362B0FB26B00AF510C /* EditFoodView.swift */; };
 		867F6F392B0FB8E900AF510C /* FoodBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F382B0FB8E900AF510C /* FoodBankView.swift */; };
+		867F6F3B2B0FC9D900AF510C /* Donate1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F3A2B0FC9D900AF510C /* Donate1View.swift */; };
 		D22A0E592B080707008EA0E7 /* EcoEatsTracker1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */; };
 		D22A0E5B2B080707008EA0E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E5A2B080707008EA0E7 /* ContentView.swift */; };
 		D22A0E5D2B080709008EA0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22A0E5C2B080709008EA0E7 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		867F6F342B0FA16700AF510C /* FoodTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerView.swift; sourceTree = "<group>"; };
 		867F6F362B0FB26B00AF510C /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 		867F6F382B0FB8E900AF510C /* FoodBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBankView.swift; sourceTree = "<group>"; };
+		867F6F3A2B0FC9D900AF510C /* Donate1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donate1View.swift; sourceTree = "<group>"; };
 		D22A0E552B080707008EA0E7 /* EcoEatsTracker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoEatsTracker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoEatsTracker1App.swift; sourceTree = "<group>"; };
 		D22A0E5A2B080707008EA0E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,11 +78,12 @@
 				867F6F382B0FB8E900AF510C /* FoodBankView.swift */,
 				867F6F362B0FB26B00AF510C /* EditFoodView.swift */,
 				867F6F342B0FA16700AF510C /* FoodTrackerView.swift */,
-				867F6F322B0F9E0F00AF510C /* Tracker1View.swift */,
 				867F6F302B0F91AE00AF510C /* AddFoodView.swift */,
 				867F6F2E2B0E472E00AF510C /* TrackerView.swift */,
+				867F6F322B0F9E0F00AF510C /* Tracker1View.swift */,
 				867F6F2C2B0E471B00AF510C /* RecipesView.swift */,
 				867F6F2A2B0E46E400AF510C /* DonateView.swift */,
+				867F6F3A2B0FC9D900AF510C /* Donate1View.swift */,
 				D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */,
 				D22A0E5A2B080707008EA0E7 /* ContentView.swift */,
 				D22A0E682B080DC8008EA0E7 /* LogInView.swift */,
@@ -173,6 +176,7 @@
 				867F6F392B0FB8E900AF510C /* FoodBankView.swift in Sources */,
 				D22A0E5B2B080707008EA0E7 /* ContentView.swift in Sources */,
 				D22A0E692B080DC8008EA0E7 /* LogInView.swift in Sources */,
+				867F6F3B2B0FC9D900AF510C /* Donate1View.swift in Sources */,
 				867F6F372B0FB26B00AF510C /* EditFoodView.swift in Sources */,
 				D22A0E6B2B080E0D008EA0E7 /* HomeView.swift in Sources */,
 				867F6F2F2B0E472E00AF510C /* TrackerView.swift in Sources */,
