@@ -20,6 +20,7 @@
 		867F6F3F2B0FCF9800AF510C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F6F3E2B0FCF9800AF510C /* MapView.swift */; };
 		86CECED92B0FD4D20027BB26 /* MapLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CECED82B0FD4D20027BB26 /* MapLocationsView.swift */; };
 		86CECEDB2B0FD5AD0027BB26 /* Location1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CECEDA2B0FD5AD0027BB26 /* Location1View.swift */; };
+		86CECEDD2B0FD7730027BB26 /* Donate3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CECEDC2B0FD7730027BB26 /* Donate3View.swift */; };
 		D22A0E592B080707008EA0E7 /* EcoEatsTracker1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */; };
 		D22A0E5B2B080707008EA0E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E5A2B080707008EA0E7 /* ContentView.swift */; };
 		D22A0E5D2B080709008EA0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22A0E5C2B080709008EA0E7 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		867F6F3E2B0FCF9800AF510C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		86CECED82B0FD4D20027BB26 /* MapLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationsView.swift; sourceTree = "<group>"; };
 		86CECEDA2B0FD5AD0027BB26 /* Location1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location1View.swift; sourceTree = "<group>"; };
+		86CECEDC2B0FD7730027BB26 /* Donate3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donate3View.swift; sourceTree = "<group>"; };
 		D22A0E552B080707008EA0E7 /* EcoEatsTracker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoEatsTracker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoEatsTracker1App.swift; sourceTree = "<group>"; };
 		D22A0E5A2B080707008EA0E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				867F6F2A2B0E46E400AF510C /* DonateView.swift */,
 				867F6F3A2B0FC9D900AF510C /* Donate1View.swift */,
 				867F6F3C2B0FCD1F00AF510C /* Donate2View.swift */,
+				86CECEDC2B0FD7730027BB26 /* Donate3View.swift */,
 				D22A0E582B080707008EA0E7 /* EcoEatsTracker1App.swift */,
 				D22A0E5A2B080707008EA0E7 /* ContentView.swift */,
 				D22A0E682B080DC8008EA0E7 /* LogInView.swift */,
@@ -188,6 +191,7 @@
 				867F6F392B0FB8E900AF510C /* FoodBankView.swift in Sources */,
 				867F6F3F2B0FCF9800AF510C /* MapView.swift in Sources */,
 				D22A0E5B2B080707008EA0E7 /* ContentView.swift in Sources */,
+				86CECEDD2B0FD7730027BB26 /* Donate3View.swift in Sources */,
 				D22A0E692B080DC8008EA0E7 /* LogInView.swift in Sources */,
 				867F6F3D2B0FCD1F00AF510C /* Donate2View.swift in Sources */,
 				867F6F3B2B0FC9D900AF510C /* Donate1View.swift in Sources */,
