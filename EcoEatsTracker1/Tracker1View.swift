@@ -31,10 +31,103 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                } //VStack line 30.
-            } //ZStack line 23.
-            //Repeat ZStack from lines 23 to 40 for each food item.
-            //Nav bar?
+                }
+            }
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 312, height: 77)
+                    .background(Color(red: 0.91, green: 0.96, blue: 0.81))
+                    .cornerRadius(10)
+                    .shadow(color: .black.opacity(0.25), radius: 3.5, x: 2, y: 4)
+                    .offset(x: 0, y: -10)
+                VStack {
+                    Text("🍉 Watermelon")
+                        .font(Font.custom("Inter", size: 30))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .center)
+                    Text("Added 11/1")
+                        .font(Font.custom("Inter", size: 15))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .topLeading)
+                }
+            }
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 312, height: 77)
+                    .background(Color(red: 0.91, green: 0.96, blue: 0.81))
+                    .cornerRadius(10)
+                    .shadow(color: .black.opacity(0.25), radius: 3.5, x: 2, y: 4)
+                    .offset(x: 0, y: -10)
+                VStack {
+                    Text("🍉 Watermelon")
+                        .font(Font.custom("Inter", size: 30))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .center)
+                    Text("Added 11/1")
+                        .font(Font.custom("Inter", size: 15))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .topLeading)
+                }
+            }
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 312, height: 77)
+                    .background(Color(red: 0.91, green: 0.96, blue: 0.81))
+                    .cornerRadius(10)
+                    .shadow(color: .black.opacity(0.25), radius: 3.5, x: 2, y: 4)
+                    .offset(x: 0, y: -10)
+                VStack {
+                    Text("🍉 Watermelon")
+                        .font(Font.custom("Inter", size: 30))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .center)
+                    Text("Added 11/1")
+                        .font(Font.custom("Inter", size: 15))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .topLeading)
+                }
+            }
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 312, height: 77)
+                    .background(Color(red: 0.91, green: 0.96, blue: 0.81))
+                    .cornerRadius(10)
+                    .shadow(color: .black.opacity(0.25), radius: 3.5, x: 2, y: 4)
+                    .offset(x: 0, y: -10)
+                VStack {
+                    Text("🍉 Watermelon")
+                        .font(Font.custom("Inter", size: 30))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .center)
+                    Text("Added 11/1")
+                        .font(Font.custom("Inter", size: 15))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .topLeading)
+                }
+            }
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 312, height: 77)
+                    .background(Color(red: 0.91, green: 0.96, blue: 0.81))
+                    .cornerRadius(10)
+                    .shadow(color: .black.opacity(0.25), radius: 3.5, x: 2, y: 4)
+                    .offset(x: 0, y: -10)
+                VStack {
+                    Text("🍉 Watermelon")
+                        .font(Font.custom("Inter", size: 30))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .center)
+                    Text("Added 11/1")
+                        .font(Font.custom("Inter", size: 15))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                        .frame(width: 200, height: 40, alignment: .topLeading)
+                }
+            }
         } //VStack line 12.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
