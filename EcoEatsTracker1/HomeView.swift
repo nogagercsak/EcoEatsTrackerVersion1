@@ -10,7 +10,7 @@ struct HomeView: View {
                     .cornerRadius(30)
                 HStack {
                     Text("Search on EcoEats")
-                        .font(Font.custom("Radio Canada", size: 20))
+                        .font(Font.custom("Radio-Canada-Light", size: 20))
                         .foregroundColor(Color(red: 0.42, green: 0.42, blue: 0.42))
                         .frame(width: 176, height: 26, alignment: .center)
                     Image("Vector") // Magnifying glass image

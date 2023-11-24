@@ -29,6 +29,8 @@
 		D22A0E692B080DC8008EA0E7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E682B080DC8008EA0E7 /* LogInView.swift */; };
 		D22A0E6B2B080E0D008EA0E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E6A2B080E0D008EA0E7 /* HomeView.swift */; };
 		D22A0E6D2B08123F008EA0E7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A0E6C2B08123F008EA0E7 /* ProgressView.swift */; };
+		F45CD0E72B11382E00DE4D58 /* seoulhangang-cb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45CD0E62B11382E00DE4D58 /* seoulhangang-cb.ttf */; };
+		F45CD0E92B11385C00DE4D58 /* RadioCanada.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F45CD0E82B11385C00DE4D58 /* RadioCanada.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,9 @@
 		D22A0E682B080DC8008EA0E7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		D22A0E6A2B080E0D008EA0E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D22A0E6C2B08123F008EA0E7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		F45CD0E62B11382E00DE4D58 /* seoulhangang-cb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "seoulhangang-cb.ttf"; path = "../../../../Downloads/seoulhangang-cb.ttf"; sourceTree = "<group>"; };
+		F45CD0E82B11385C00DE4D58 /* RadioCanada.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RadioCanada.ttf; path = ../../../../Downloads/Radio_Canada/RadioCanada.ttf; sourceTree = "<group>"; };
+		F45CD0EA2B1138FD00DE4D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,8 @@
 		D22A0E572B080707008EA0E7 /* EcoEatsTracker1 */ = {
 			isa = PBXGroup;
 			children = (
+				F45CD0EA2B1138FD00DE4D58 /* Info.plist */,
+				F45CD0E52B1137D800DE4D58 /* Fonts */,
 				D22A0E5A2B080707008EA0E7 /* ContentView.swift */,
 				D22A0E682B080DC8008EA0E7 /* LogInView.swift */,
 				D22A0E6A2B080E0D008EA0E7 /* HomeView.swift */,
@@ -119,6 +126,15 @@
 				D22A0E5F2B080709008EA0E7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F45CD0E52B1137D800DE4D58 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F45CD0E82B11385C00DE4D58 /* RadioCanada.ttf */,
+				F45CD0E62B11382E00DE4D58 /* seoulhangang-cb.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45CD0E72B11382E00DE4D58 /* seoulhangang-cb.ttf in Resources */,
 				D22A0E602B080709008EA0E7 /* Preview Assets.xcassets in Resources */,
+				F45CD0E92B11385C00DE4D58 /* RadioCanada.ttf in Resources */,
 				D22A0E5D2B080709008EA0E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +364,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EcoEatsTracker1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoEatsTracker1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -374,6 +393,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EcoEatsTracker1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoEatsTracker1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
