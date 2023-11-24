@@ -1,27 +1,17 @@
-//
-//  Donate2View.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/23/23.
-//
-
 import SwiftUI
 
 struct Donate2View: View {
     var body: some View {
         VStack {
             Text("Non-Profits")
-                .font(Font.custom("SeoulHangang", size: 40))
-                .multilineTextAlignment(.center)
+                .font(Font.custom("Radio Canada", size: 50))
                 .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                .frame(width: 334, height: 94, alignment: .top)
             
             HStack {
-                //Arrow
-                Image("Vector 5")
-                    .frame(width: 31.17689, height: 51.43757)
-                    .overlay(
-                      Rectangle()
-                        .stroke(.black, lineWidth: 3))
+                Image(systemName: "arrow.left")
+                    .resizable()
+                    .frame(width: 45, height: 45)
                 ZStack {
                     Image("Rectangle 44")
                         .frame(width: 250, height: 300)
@@ -31,23 +21,22 @@ struct Donate2View: View {
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 237, height: 62, alignment: .top)
                } //ZStack line 25.
-                //Arrow
-                Image("Vector 5")
-                    .frame(width: 31.17689, height: 51.43757)
-                    .overlay(
-                      Rectangle()
-                        .stroke(.black, lineWidth: 3))
+                Image(systemName: "arrow.right")
+                    .resizable()
+                    .frame(width: 45, height: 45)
             } //HStack line 18.
-           
+
             ZStack {
-                Image("Link+description")
+                Rectangle()
+                    .foregroundColor(.clear)
                     .frame(width: 350, height: 100)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
-                Text("Link & Description")
-                    .font(Font.custom("SeoulHangang", size: 25))
-                    .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
-                    .frame(width: 237, height: 62, alignment: .center)
-            } //ZStack line 42.
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
+                Text("Link and Description")
+                    .font(Font.custom("Inter", size: 25))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+                    .frame(width: 200, height: 90, alignment: .center)
+            } //ZStack line 12.
             
             //Nav Bar.
         } //VStack line 12.
@@ -56,6 +45,8 @@ struct Donate2View: View {
     }
 }
 
-#Preview {
-    Donate2View()
+struct Donate2View_Previews: PreviewProvider {
+    static var previews: some View {
+        Donate2View()
+    }
 }

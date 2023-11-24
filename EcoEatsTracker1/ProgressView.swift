@@ -1,68 +1,64 @@
-//
-//  ProgressPage.swift
-//  EcoEatsTracker
-//
-//  Created by Shradha Bista on 11/16/23.
-//
-
 import SwiftUI
 
 struct ProgressView: View {
     var body: some View {
         VStack {
-            // Header
-            Text("Progress:")
-                .font(Font.custom("Inter", size: 70))
-                .foregroundColor(.black)
+            Text("Progress")
+                .font(Font.custom("Radio Canada", size: 50))
+                .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                 .frame(width: 334, height: 94, alignment: .top)
             
             ZStack {
-                Image("Ellipse 1")
-                    .frame(width: 300, height: 100)
-                    .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                Text("Food waste vs. Food saved")
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
+                Text("Food Waste vs. Food Saved")
                     .font(Font.custom("Inter", size: 25))
-                    .foregroundColor(.black)
-                    .frame(width: 199, height: 90, alignment: .center)
-            } //ZStack line 19.
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+            } //ZStack line 11.
             
             ZStack {
-                Image("Ellipse 1")
-                    .frame(width: 300, height: 100)
-                    .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                Text("Top three food recipes:")
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
+                Text("Top Three Food Recipes")
                     .font(Font.custom("Inter", size: 25))
-                    .foregroundColor(.black)
-                    .frame(width: 199, height: 90, alignment: .center)
-            } //ZStack line 29.
-            
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+            } //ZStack line 23.
+
             ZStack {
-                Image("Ellipse 1")
-                    .frame(width: 300, height: 100)
-                    .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                Text("How much food donated")
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
+                Text("How Much Food Donated")
                     .font(Font.custom("Inter", size: 25))
-                    .foregroundColor(.black)
-                    .frame(width: 199, height: 90, alignment: .center)
-            } //ZStack line 39.
-            
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+            } //ZStack line 35.
+
             ZStack {
-                Image("Ellipse 1")
-                    .frame(width: 300, height: 100)
-                    .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                Text("My food bank")
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
+                Text("My Food Bank")
                     .font(Font.custom("Inter", size: 25))
-                    .foregroundColor(.black)
-                    .frame(width: 199, height: 90, alignment: .center)
-            } //ZStack line 49.
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+            } //ZStack line 47.
             
             //Nav Bar.
-        } //VStack line 12.
+        } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
-        
     }
 }
+
 struct ProgressView_Previews: PreviewProvider {
     static var previews: some View {
         ProgressView()

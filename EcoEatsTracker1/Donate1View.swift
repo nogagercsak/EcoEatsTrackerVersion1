@@ -1,10 +1,3 @@
-//
-//  Donate1View.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/23/23.
-//
-
 import SwiftUI
 
 struct Donate1View: View {
@@ -17,46 +10,50 @@ struct Donate1View: View {
                 .cornerRadius(400)
             
             ZStack {
-                Image("Rectangle 16")
-                    .frame(width: 194, height: 48)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
                     .cornerRadius(30)
-                Text("Link 1")
-                    .font(Font.custom("Inter", size: 40))
-                    .foregroundColor(.black)
-                    .frame(width: 207, height: 52, alignment: .center)
-            } //ZStack line 18.
+                Text("Link #1")
+                    .font(Font.custom("Inter", size: 25))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+                    .frame(width: 200, height: 90, alignment: .center)
+            } //ZStack line 12.
             
             ZStack {
-                Image("Rectangle 16")
-                    .frame(width: 194, height: 48)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
                     .cornerRadius(30)
-                Text("Link 2")
-                    .font(Font.custom("Inter", size: 40))
-                    .foregroundColor(.black)
-                    .frame(width: 207, height: 52, alignment: .center)
-            } //ZStack line 29.
+                Text("Link #2")
+                    .font(Font.custom("Inter", size: 25))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+                    .frame(width: 200, height: 90, alignment: .center)
+            } //ZStack line 24.
             
             ZStack {
-                Image("Rectangle 16")
-                    .frame(width: 194, height: 48)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 350, height: 75)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
                     .cornerRadius(30)
-                Text("Link 3")
-                    .font(Font.custom("Inter", size: 40))
-                    .foregroundColor(.black)
-                    .frame(width: 207, height: 52, alignment: .center)
-            } //ZStack line 39.
+                Text("Link #3")
+                    .font(Font.custom("Inter", size: 25))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+                    .frame(width: 200, height: 90, alignment: .center)
+            } //ZStack line 36.
             
             //Nav Bar.
-            
-        } //VStack line 12.
+        } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
     }
 }
 
-#Preview {
-    Donate1View()
+struct Donate1View_Previews: PreviewProvider {
+    static var previews: some View {
+        Donate1View()
+    }
 }

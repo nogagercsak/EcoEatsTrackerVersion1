@@ -23,7 +23,7 @@ struct MapView: View {
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
-                    .frame(width: 306, height: 53)
+                    .frame(width: 300, height: 50)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                     .cornerRadius(30)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
@@ -36,7 +36,7 @@ struct MapView: View {
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
-                    .frame(width: 306, height: 53)
+                    .frame(width: 300, height: 50)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                     .cornerRadius(30)
                     .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 4)
@@ -49,16 +49,15 @@ struct MapView: View {
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
-                    .frame(width: 119, height: 40)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
-                    .cornerRadius(10)
+                    .frame(width: 100, height: 50)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
                 Text("Done")
-                    .font(Font.custom("Radio Canada", size: 24))
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(Color(red: 0.97, green: 1, blue: 0.91))
-                    .frame(width: 112.73684, height: 23.38461, alignment: .top)
-            } //ZStack line 49.
-           
+                    .font(Font.custom("Radio Canada", size: 25))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+                    .frame(width: 200, height: 90, alignment: .center)
+            } //ZStack line 24.
+
             //Nav Bar.
             
         } //VStack line 12.
