@@ -97,14 +97,16 @@ struct EditFoodView: View {
                             .font(Font.custom("Inter", size: 19))
                             .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                             .frame(width: 275, height: 24, alignment: .topLeading)
-                            .offset(x: 15, y: 0)
+                            .offset(x: 20, y: 0)
                         ZStack {
                             Image("Rectangle 47")
                                 .frame(width: 52, height: 24)
                                 .background(Color(red: 0.99, green: 0.99, blue: 0.99))
+                                .offset(x: -20, y: 0)
                             Image("Ellipse 4")
                                 .frame(width: 25, height: 24)
                                 .background(Color(red: 0.72, green: 0.72, blue: 0.72))
+                                .offset(x: -5, y: 0)
                         } //ZStack line 95.
                     } //HStack line 90.
                 } //VStack line 54.
