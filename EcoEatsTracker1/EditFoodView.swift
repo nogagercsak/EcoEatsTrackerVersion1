@@ -4,14 +4,17 @@ struct EditFoodView: View {
     var body: some View {
         VStack {
             Text("< Go back to Foods")
-                .font(Font.custom("Inter", size: 16))
+                .font(Font.custom("Inter", size: 19))
                 .foregroundColor(Color(red: 0.45, green: 0.68, blue: 0))
                 .frame(width: 224, height: 31, alignment: .topLeading)
+                .offset(x: -50, y: -170)
             
             Text("Edit Food")
-                .font(Font.custom("Inter", size: 30))
+                .font(Font.custom("Radio Canada", size: 45))
                 .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
-                .frame(width: 186, height: 15, alignment: .top)
+                .frame(width: 300, height: 15, alignment: .top)
+                .offset(x: -70, y: -100)
+            
             //First rectangle.
             ZStack {
                 Rectangle()
@@ -19,26 +22,32 @@ struct EditFoodView: View {
                     .frame(width: 338, height: 107)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                     .cornerRadius(10)
+                    .offset(x: 0, y: -60)
                 VStack {
                     Text("Food Name")
                         .font(Font.custom("Inter", size: 19))
                         .foregroundColor(Color(red: 0.99, green: 0.99, blue: 0.99))
                         .frame(width: 179, height: 24, alignment: .topLeading)
+                        .offset(x: -55, y: -60)
                     Rectangle()
                         .foregroundColor(.clear)
                         .frame(width: 307.9993, height: 1)
                         .background(.white)
+                        .offset(x: 0, y: -60)
                     Text("Notes")
                         .font(Font.custom("Inter", size: 19))
                         .foregroundColor(Color(red: 0.99, green: 0.99, blue: 0.99))
                         .frame(width: 179, height: 24, alignment: .topLeading)
+                        .offset(x: -55, y: -60)
                 } //VStack line 29.
             } //ZStack line 23.
             
             Text("Expiration")
-                .font(Font.custom("Inter", size: 30))
+                .font(Font.custom("Radio Canada", size: 45))
                 .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
-                .frame(width: 186, height: 15, alignment: .topLeading)
+                .frame(width: 400, height: 15, alignment: .top)
+                .offset(x: -60, y: -40)
+            
             ZStack{
                 Rectangle()
                     .foregroundColor(.clear)
@@ -51,6 +60,7 @@ struct EditFoodView: View {
                             .font(Font.custom("Inter", size: 19))
                             .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                             .frame(width: 179, height: 24, alignment: .topLeading)
+                            .offset(x: 10, y: 0)
                         ZStack {
                             Image("Rectangle 46")
                                 .frame(width: 117, height: 38)
@@ -59,8 +69,8 @@ struct EditFoodView: View {
                                 .font(Font.custom("Inter", size: 17))
                                 .foregroundColor(.black)
                                 .frame(width: 127, height: 22, alignment: .top)
-                        } //ZStack line 61.
-                    } //HStack line 56.
+                        } //ZStack line 60.
+                    } //HStack line 55.
                     //White line in between two HStacks.
                     Rectangle()
                         .foregroundColor(.clear)
@@ -71,6 +81,7 @@ struct EditFoodView: View {
                             .font(Font.custom("Inter", size: 19))
                             .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                             .frame(width: 179, height: 24, alignment: .topLeading)
+                            .offset(x: 10, y: 0)
                         ZStack {
                             Image("Rectangle 46")
                                 .frame(width: 117, height: 38)
@@ -79,13 +90,14 @@ struct EditFoodView: View {
                                 .font(Font.custom("Inter", size: 17))
                                 .foregroundColor(.black)
                                 .frame(width: 127, height: 22, alignment: .top)
-                        } //ZStack line 81.
-                    } //HStack line 76.
+                        } //ZStack line 76.
+                    } //HStack line 71.
                     HStack {
                         Text("Remind me when ")
                             .font(Font.custom("Inter", size: 19))
                             .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                             .frame(width: 275, height: 24, alignment: .topLeading)
+                            .offset(x: 15, y: 0)
                         ZStack {
                             Image("Rectangle 47")
                                 .frame(width: 52, height: 24)
@@ -93,23 +105,24 @@ struct EditFoodView: View {
                             Image("Ellipse 4")
                                 .frame(width: 25, height: 24)
                                 .background(Color(red: 0.72, green: 0.72, blue: 0.72))
-                        } //ZStack line 96.
-                    } //HStack line 91.
+                        } //ZStack line 95.
+                    } //HStack line 90.
                 } //VStack line 54.
-            } //ZStack line 49.
-            
+            } //ZStack line 48.
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
                     .frame(width: 119, height: 40)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
-                    .cornerRadius(10)
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .cornerRadius(30)
+                    .offset(x: 0, y: 40)
                 Text("Save")
                     .font(Font.custom("Radio Canada", size: 24))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color(red: 0.97, green: 1, blue: 0.91))
-                    .frame(width: 112.73684, height: 23.38461, alignment: .top)
-                } //ZStack line 107.
+                    .frame(width: 112.73684, height: 23.38461, alignment: .center)
+                    .offset(x: 0, y: 40)
+            } //ZStack line 107.
          
         //Nav bar?
             
