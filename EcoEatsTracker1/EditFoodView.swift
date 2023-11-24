@@ -1,10 +1,3 @@
-//
-//  AddFoodView.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/23/23.
-//
-
 import SwiftUI
 
 struct EditFoodView: View {

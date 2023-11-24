@@ -4,10 +4,11 @@ struct FoodBankView: View {
     var body: some View {
         VStack {
             Text("Food Banks")
-                .font(Font.custom("SeoulHangang", size: 35))
+                .font(Font.custom("SeH-CB", size: 65))
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
-                .frame(width: 213, height: 78, alignment: .top)
+                .frame(width: 334, height: 94, alignment: .top)
+                .offset(x: 0, y: -10)
             
             ZStack {
                 Rectangle()

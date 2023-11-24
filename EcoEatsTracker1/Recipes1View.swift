@@ -1,10 +1,3 @@
-//
-//  Recipes1View.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/23/23.
-//
-
 import SwiftUI
 
 struct Recipes1View: View {

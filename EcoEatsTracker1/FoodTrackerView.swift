@@ -1,19 +1,13 @@
-//
-//  FoodTrackerView.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/23/23.
-//
-
 import SwiftUI
 
 struct FoodTrackerView: View {
     var body: some View {
         VStack {
-            Text("< Go back to Tracker")
-                .font(Font.custom("Inter", size: 16))
+            Text("< Go back to Foods")
+                .font(Font.custom("Inter", size: 19))
                 .foregroundColor(Color(red: 0.45, green: 0.68, blue: 0))
                 .frame(width: 224, height: 31, alignment: .topLeading)
+                .offset(x: -50, y: -170)
             
             Text("🍉 Watermelon")
                 .font(Font.custom("Inter", size: 48))
@@ -77,13 +71,13 @@ struct FoodTrackerView: View {
                 Rectangle()
                     .foregroundColor(.clear)
                     .frame(width: 119, height: 40)
-                    .background(Color(red: 0.62, green: 0.76, blue: 0.62))
+                    .background(Color(red: 0.43, green: 0.51, blue: 0.42))
                     .cornerRadius(10)
                 Text("Edit")
                     .font(Font.custom("Radio Canada", size: 24))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color(red: 0.97, green: 1, blue: 0.91))
-                    .frame(width: 112.73684, height: 23.38461, alignment: .top)
+                    .frame(width: 112.73684, height: 23.38461, alignment: .center)
             } //ZStack line 76.
             
         } //VStack line 12.

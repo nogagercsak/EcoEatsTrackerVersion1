@@ -1,27 +1,21 @@
-//
-//  TrackerView.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/22/23.
-//
-
 import SwiftUI
 
 struct TrackerView: View {
     var body: some View {
         VStack {
             Text("Tracker")
-              .font(Font.custom("SeoulHangang CB", size: 50))
+              .font(Font.custom("SeH-CB", size: 65))
               .multilineTextAlignment(.center)
               .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
-              .frame(width: 213, height: 78, alignment: .top)
+              .frame(width: 334, height: 94, alignment: .top)
+              .offset(x: 0, y: -40)
            
             Text("Recently Added")
-              .font(Font.custom("Inter", size: 30))
+              .font(Font.custom("Radio Canada", size: 30))
               .foregroundColor(Color(red: 0.4, green: 0.4, blue: 0.4))
               .frame(width: 293, height: 15, alignment: .top)
+              .offset(x: 0, y: -20)
             
-            //Why is it overlapping "Recently Added"?
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -30,26 +24,28 @@ struct TrackerView: View {
                     .cornerRadius(10)
                 Rectangle()
                   .foregroundColor(.clear)
-                  .frame(width: 192, height: 45)
+                  .frame(width: 200, height: 45)
                   .background(Color(red: 1, green: 0.96, blue: 0.89))
                   .cornerRadius(10)
                 Text("🍉 Watermelon")
                   .font(Font.custom("Inter", size: 24))
                   .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
-                  .frame(width: 245, height: 22, alignment: .topLeading)
+                  .frame(width: 245, height: 22, alignment: .center)
             } //ZStack line 24.
             
             ZStack {
                 Rectangle()
                   .foregroundColor(.clear)
                   .frame(width: 190, height: 60)
-                  .background(Color(red: 0.62, green: 0.76, blue: 0.62))
-                  .cornerRadius(10)
+                  .background(Color(red: 0.43, green: 0.51, blue: 0.42))
+                  .cornerRadius(30)
+                  .offset(x: 0, y: 30)
                 Text("Add food +")
-                  .font(Font.custom("Radio Canada", size: 30))
+                  .font(Font.custom("Radio Canada", size: 25))
                   .multilineTextAlignment(.center)
-                  .foregroundColor(Color(red: 0.97, green: 1, blue: 0.91))
-                  .frame(width: 180, height: 35.07692, alignment: .top)
+                  .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
+                  .frame(width: 180, height: 35.07692, alignment: .center)
+                  .offset(x: 0, y: 30)
             } //ZStack line 42.
             
            //Nav bar.

@@ -1,26 +1,21 @@
-//
-//  Location1View.swift
-//  EcoEatsTracker1
-//
-//  Created by Shradha Bista on 11/23/23.
-//
-
 import SwiftUI
 
 struct Location1View: View {
     var body: some View {
         VStack {
             Text("Location #1")
-                .font(Font.custom("Radio Canada", size: 64))
-                .foregroundColor(.black)
-                .frame(width: 368, height: 102, alignment: .top)
+                .font(.custom("SeH-CB", size: 60))
+                .multilineTextAlignment(.center)
+                .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                .frame(width: 400, height: 76, alignment: .top)
+                .offset(x: 0, y: -40)
             
             ZStack{
                 Image("Rectangle 14")
                     .frame(width: 300, height: 85)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                 Text("Address")
-                    .font(Font.custom("Inter", size: 35))
+                    .font(Font.custom("Radio Canada", size: 35))
                     .foregroundColor(.black)
                     .frame(width: 282, height: 76, alignment: .center)
             } //ZStack line 18.
@@ -30,7 +25,7 @@ struct Location1View: View {
                     .frame(width: 300, height: 85)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                 Text("Phone Number")
-                    .font(Font.custom("Inter", size: 35))
+                    .font(Font.custom("Radio Canada", size: 35))
                     .foregroundColor(.black)
                     .frame(width: 282, height: 76, alignment: .center)
             } //ZStack line 28.
@@ -40,15 +35,10 @@ struct Location1View: View {
                     .frame(width: 300, height: 85)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                 Text("Other Info")
-                    .font(Font.custom("Inter", size: 35))
+                    .font(Font.custom("Radio Canada", size: 35))
                     .foregroundColor(.black)
                     .frame(width: 282, height: 76, alignment: .center)
             } //ZStack line 38.
-            
-            Rectangle()
-                .foregroundColor(.clear)
-                .frame(width: 340, height: 1)
-                .background(.black)
             
             ZStack {
                 Rectangle()
@@ -56,7 +46,7 @@ struct Location1View: View {
                     .frame(width: 300, height: 85)
                     .background(Color(red: 0.85, green: 0.85, blue: 0.85))
                 Text("Website")
-                    .font(Font.custom("Inter", size: 35))
+                    .font(Font.custom("Radio Canada", size: 35))
                     .foregroundColor(.black)
                     .frame(width: 265, height: 63, alignment: .center)
             } //ZStack line 53.
