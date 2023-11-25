@@ -31,7 +31,7 @@ struct TrackerView: View {
                   .font(Font.custom("Inter", size: 24))
                   .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                   .frame(width: 245, height: 22, alignment: .center)
-            } //ZStack line 24.
+            } //ZStack line 19.
             
             ZStack {
                 Rectangle()
@@ -46,11 +46,11 @@ struct TrackerView: View {
                   .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
                   .frame(width: 180, height: 35.07692, alignment: .center)
                   .offset(x: 0, y: 30)
-            } //ZStack line 42.
+            } //ZStack line 36.
             
            //Nav bar.
 
-        } //VStack line 12.
+        } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
     }

@@ -31,8 +31,9 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                }
-            }
+                } //VStack line 25.
+            } //ZStack line 17.
+            
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -50,8 +51,9 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                }
-            }
+                } //VStack line 45.
+            } //ZStack line 37.
+            
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -69,8 +71,9 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                }
-            }
+                } //VStack line 65.
+            } //ZStack line 57.
+            
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -88,8 +91,9 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                }
-            }
+                } //VStack line 85.
+            } //ZStack line 77.
+            
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -107,8 +111,9 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                }
-            }
+                } //VStack line 105.
+            } //ZStack line 97.
+            
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -126,9 +131,10 @@ struct Tracker1View: View {
                         .font(Font.custom("Inter", size: 15))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 200, height: 40, alignment: .topLeading)
-                }
-            }
-        } //VStack line 12.
+                } //VStack line 125.
+            } //ZStack line 117.
+            
+        } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
     }

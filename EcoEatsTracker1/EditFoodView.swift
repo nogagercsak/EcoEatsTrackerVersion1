@@ -3,11 +3,18 @@ import SwiftUI
 struct EditFoodView: View {
     var body: some View {
         VStack {
-            Text("< Go back to Foods")
-                .font(Font.custom("Inter", size: 19))
-                .foregroundColor(Color(red: 0.45, green: 0.68, blue: 0))
-                .frame(width: 224, height: 31, alignment: .topLeading)
-                .offset(x: -50, y: -170)
+            HStack {
+                Text("Go Back to Foods")
+                    .font(Font.custom("Inter", size: 19))
+                    .foregroundColor(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .frame(width: 224, height: 31, alignment: .topLeading)
+                    .offset(x: -30, y: -130)
+                //Make this arrow align with the text
+                Image(systemName: "arrow.left")
+                    .resizable()
+                    .frame(width: 15, height: 15, alignment: .center)
+                    .offset(x: -290, y: -133)
+            } //HStack line 6.
             
             Text("Edit Food")
                 .font(Font.custom("Radio Canada", size: 45))

@@ -26,7 +26,7 @@ struct AddFoodView: View {
                 VStack {
                     Text("Food Name")
                         .font(Font.custom("Inter", size: 19))
-                        .foregroundColor(Color(red: 0.99, green: 0.99, blue: 0.99))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 179, height: 24, alignment: .topLeading)
                         .offset(x: -55, y: -60)
                     Rectangle()
@@ -36,11 +36,11 @@ struct AddFoodView: View {
                         .offset(x: 0, y: -60)
                     Text("Notes")
                         .font(Font.custom("Inter", size: 19))
-                        .foregroundColor(Color(red: 0.99, green: 0.99, blue: 0.99))
+                        .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 179, height: 24, alignment: .topLeading)
                         .offset(x: -55, y: -60)
-                } //VStack line 29.
-            } //ZStack line 23.
+                } //VStack line 26.
+            } //ZStack line 19.
             
             Text("Expiration")
                 .font(Font.custom("Radio Canada", size: 45))
@@ -69,8 +69,9 @@ struct AddFoodView: View {
                                 .font(Font.custom("Inter", size: 17))
                                 .foregroundColor(.black)
                                 .frame(width: 127, height: 22, alignment: .top)
-                        } //ZStack line 60.
-                    } //HStack line 55.
+                        } //ZStack line 64.
+                    } //HStack line 58.
+                    
                     //White line in between two HStacks.
                     Rectangle()
                         .foregroundColor(.clear)
@@ -90,8 +91,9 @@ struct AddFoodView: View {
                                 .font(Font.custom("Inter", size: 17))
                                 .foregroundColor(.black)
                                 .frame(width: 127, height: 22, alignment: .top)
-                        } //ZStack line 76.
-                    } //HStack line 71.
+                        } //ZStack line 86.
+                    } //HStack line 80.
+                    
                     HStack {
                         Text("Remind me when ")
                             .font(Font.custom("Inter", size: 19))
@@ -105,10 +107,11 @@ struct AddFoodView: View {
                             Image("Ellipse 4")
                                 .frame(width: 25, height: 24)
                                 .background(Color(red: 0.72, green: 0.72, blue: 0.72))
-                        } //ZStack line 95.
-                    } //HStack line 90.
-                } //VStack line 54.
-            } //ZStack line 48.
+                        } //ZStack line 103.
+                    } //HStack line 97.
+                } //VStack line 57.
+            } //ZStack line 51.
+            
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -119,14 +122,14 @@ struct AddFoodView: View {
                 Text("Save")
                     .font(Font.custom("Radio Canada", size: 24))
                     .multilineTextAlignment(.center)
-                    .foregroundColor(Color(red: 0.97, green: 1, blue: 0.91))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
                     .frame(width: 112.73684, height: 23.38461, alignment: .center)
                     .offset(x: 0, y: 40)
-            } //ZStack line 107.
+            } //ZStack line 115.
          
         //Nav bar?
             
-        } //VStack line 12.
+        } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
     }

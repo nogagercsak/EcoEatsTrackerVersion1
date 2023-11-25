@@ -8,7 +8,7 @@ struct ProgressView: View {
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                 .frame(width: 334, height: 94, alignment: .top)
-                .offset(x: 0, y: -50)
+                .offset(x: 0, y: -60)
             
             ZStack {
                 Rectangle()

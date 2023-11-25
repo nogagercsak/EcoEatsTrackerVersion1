@@ -41,6 +41,9 @@ struct MapView: View {
                     .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                     .frame(width: 294, height: 65, alignment: .center)
                     .offset(x: 0, y: 20)
+                
+                    .font(Font.custom("Radio Canada", size: 25))
+                    
             } //ZStack line 23.
             
             ZStack {

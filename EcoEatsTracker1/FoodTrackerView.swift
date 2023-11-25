@@ -3,11 +3,18 @@ import SwiftUI
 struct FoodTrackerView: View {
     var body: some View {
         VStack {
-            Text("< Go back to Foods")
-                .font(Font.custom("Inter", size: 19))
-                .foregroundColor(Color(red: 0.45, green: 0.68, blue: 0))
-                .frame(width: 224, height: 31, alignment: .topLeading)
-                .offset(x: -50, y: -170)
+            HStack {
+                Text("Go Back to Foods")
+                    .font(Font.custom("Inter", size: 19))
+                    .foregroundColor(Color(red: 0.43, green: 0.51, blue: 0.42))
+                    .frame(width: 224, height: 31, alignment: .topLeading)
+                    .offset(x: -30, y: -130)
+                //Make this arrow align with the text
+                Image(systemName: "arrow.left")
+                    .resizable()
+                    .frame(width: 15, height: 15, alignment: .center)
+                    .offset(x: -290, y: -133)
+            } //HStack line 6.
             
             Text("🍉 Watermelon")
                 .font(Font.custom("Inter", size: 48))
@@ -27,7 +34,6 @@ struct FoodTrackerView: View {
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 179, height: 24, alignment: .center)
                 } //ZStack line 26.
-                
                 ZStack {
                     Rectangle()
                         .foregroundColor(.clear)
@@ -38,10 +44,10 @@ struct FoodTrackerView: View {
                         .font(Font.custom("Inter", size: 19))
                         .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
                         .frame(width: 179, height: 24, alignment: .center)
-                } //ZStack line 38.
-            } //HStack line 24.
+                } //ZStack line 37.
+            } //HStack line 25.
             
-            //Notes square.
+            //First square.
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -54,7 +60,7 @@ struct FoodTrackerView: View {
                     .frame(width: 175, height: 47, alignment: .topLeading)
             } //ZStack line 51.
             
-            //Notes square.
+            //Second square.
             ZStack {
                 Rectangle()
                     .foregroundColor(.clear)
@@ -76,11 +82,11 @@ struct FoodTrackerView: View {
                 Text("Edit")
                     .font(Font.custom("Radio Canada", size: 24))
                     .multilineTextAlignment(.center)
-                    .foregroundColor(Color(red: 0.97, green: 1, blue: 0.91))
+                    .foregroundColor(Color(red: 0.98, green: 0.93, blue: 0.66))
                     .frame(width: 112.73684, height: 23.38461, alignment: .center)
             } //ZStack line 76.
             
-        } //VStack line 12.
+        } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
     }
