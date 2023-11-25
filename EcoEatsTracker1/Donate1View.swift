@@ -48,7 +48,29 @@ struct Donate1View: View {
                     .frame(width: 200, height: 90, alignment: .center)
             } //ZStack line 36.
             
-            //Nav Bar.
+            ZStack{
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 393, height: 50)
+                    .background(Color(red: 1, green: 0.96, blue: 0.89))
+                    .shadow(color: .black.opacity(0.1), radius: 5, x: 0, y: -3)
+                    .padding(50)
+                HStack {
+                    Image(systemName: "house")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                    Image(systemName: "plus.app")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                    Image(systemName: "fork.knife.circle")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                    Image(systemName: "person.crop.circle")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                } //HStack line 58.
+            } //ZStack line 51.
+            
         } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))

@@ -17,7 +17,7 @@ struct HomeView: View {
                         .resizable()
                         .frame(width: 19, height: 19)
                         .background(Color(red: 0.42, green: 0.42, blue: 0.42))
-                } //HStack line 5.
+                } //HStack line 11.
             } //ZStack line 6.
             
             HStack {
@@ -30,10 +30,10 @@ struct HomeView: View {
                         .frame(width: 30, height: 30)
                         .background(Color(red: 0.89, green: 0.86, blue: 0.78))
                         .cornerRadius(30)
-                    Image(systemName: "arrow.right")
+                    Image(systemName: "arrowshape.right.fill")
                         .resizable()
-                        .frame(width: 15, height: 15)
-                } //ZStack line 28.
+                        .frame(width: 10, height: 10)
+                } //ZStack line 27.
             } //HStack line 23.
             
             HStack {
@@ -46,16 +46,13 @@ struct HomeView: View {
                         .frame(width: 30, height: 30)
                         .background(Color(red: 0.89, green: 0.86, blue: 0.78))
                         .cornerRadius(30)
-                    Image(systemName: "arrow.right")
+                    Image(systemName: "arrowshape.right.fill")
                         .resizable()
-                        .frame(width: 15, height: 15)
-                } //ZStack line 45.
-            } //HStack line 40.
-            
-            
-            // Nav bar at the bottom
-            
-            //Spacer()
+                        .frame(width: 10, height: 10)
+                } //ZStack line 43.
+            } //HStack line 39.
+
+            // Spacer()
             
             ZStack{
                 Rectangle()
@@ -63,7 +60,23 @@ struct HomeView: View {
                     .frame(width: 393, height: 50)
                     .background(Color(red: 1, green: 0.96, blue: 0.89))
                     .shadow(color: .black.opacity(0.1), radius: 5, x: 0, y: -3)
-            } //ZStack line 62.
+                    .padding(50)
+                HStack {
+                    Image(systemName: "house")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                    Image(systemName: "plus.app")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                    Image(systemName: "fork.knife.circle")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                    Image(systemName: "person.crop.circle")
+                        .frame(width: 15, height: 15)
+                        .padding(35)
+                } //HStack line 64.
+            } //ZStack line 57.
+            
         } //VStack line 5.
         .frame(width: 393, height: 852)
         .background(Color(red: 1, green: 0.96, blue: 0.89))
