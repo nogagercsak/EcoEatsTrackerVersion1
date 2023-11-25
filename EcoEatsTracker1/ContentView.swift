@@ -8,6 +8,7 @@ struct ContentView: View {
                 .font(.custom("SeH-CB", size: 95))
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color(red: 0.34, green: 0.41, blue: 0.34))
+                .fontWeight(.bold)
                 .frame(width: 400, height: 76, alignment: .top)
                 .offset(x: 0, y: -40)
             
@@ -34,12 +35,18 @@ struct ContentView: View {
                 
             } //VStack line 12.
             .frame(width: 393, height: 852)
-            .background(Color(red: 1, green: 0.96, blue: 0.89))
+            .background(
+            Image("gradient")
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: 393, height: 900)
+            .clipped()
+            )
         }
     }
     
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView()
-        }
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

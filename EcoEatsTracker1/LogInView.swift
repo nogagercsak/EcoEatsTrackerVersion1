@@ -2,6 +2,7 @@ import SwiftUI
 
 struct LogInView: View {
     var body: some View {
+        
         VStack {
             Text("Welcome To")
                 .font(Font.custom("SeH-CB", size: 40))
@@ -74,5 +75,6 @@ struct LogInView: View {
             LogInView()
         }
     }
+    
 }
 
